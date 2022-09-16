@@ -7,11 +7,11 @@ package text_test
 import (
 	"testing"
 
+	"github.com/Hao-Wu/plot/font"
+	"github.com/Hao-Wu/plot/font/liberation"
+	"github.com/Hao-Wu/plot/text"
+	"github.com/Hao-Wu/plot/vg"
 	stdfnt "golang.org/x/image/font"
-	"gonum.org/v1/plot/font"
-	"gonum.org/v1/plot/font/liberation"
-	"gonum.org/v1/plot/text"
-	"gonum.org/v1/plot/vg"
 )
 
 func TestLatexText(t *testing.T) {

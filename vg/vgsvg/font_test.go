@@ -17,7 +17,7 @@ import (
 	xfnt "golang.org/x/image/font"
 	"golang.org/x/image/font/sfnt"
 
-	"gonum.org/v1/plot/font"
+	"github.com/Hao-Wu/plot/font"
 )
 
 func TestSVGFontDescr(t *testing.T) {

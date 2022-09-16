@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"gonum.org/v1/plot/vg"
+	"github.com/Hao-Wu/plot/vg"
 )
 
 const tol = 1e-12

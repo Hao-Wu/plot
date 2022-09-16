@@ -4,8 +4,8 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/6vtroet40gj5jhoe/branch/master?svg=true)](https://ci.appveyor.com/project/Gonum/plot/branch/master)
 [![codecov.io](https://codecov.io/gh/gonum/plot/branch/master/graph/badge.svg)](https://codecov.io/gh/gonum/plot)
 [![coveralls.io](https://coveralls.io/repos/gonum/plot/badge.svg?branch=master&service=github)](https://coveralls.io/github/gonum/plot?branch=master)
-[![GoDoc](https://godoc.org/gonum.org/v1/plot?status.svg)](https://godoc.org/gonum.org/v1/plot)
-[![go.dev reference](https://pkg.go.dev/badge/gonum.org/v1/plot)](https://pkg.go.dev/gonum.org/v1/plot)
+[![GoDoc](https://godoc.org/github.com/Hao-Wu/plot?status.svg)](https://godoc.org/github.com/Hao-Wu/plot)
+[![go.dev reference](https://pkg.go.dev/badge/github.com/Hao-Wu/plot)](https://pkg.go.dev/github.com/Hao-Wu/plot)
 
 `gonum/plot` is the new, official fork of code.google.com/p/plotinum.
 It provides an API for building and drawing plots in Go.
@@ -27,12 +27,12 @@ There is a discussion list on Google Groups: gonum-dev@googlegroups.com.
 
 Documentation is available at:
 
-  https://godoc.org/gonum.org/v1/plot
+  https://godoc.org/github.com/Hao-Wu/plot
 
 ## Installation
 
 You can get `gonum/plot` using go get:
 
-`go get gonum.org/v1/plot/...`
+`go get github.com/Hao-Wu/plot/...`
 
 If you write a cool plotter that you think others may be interested in using, please post to the list so that we can link to it in the `gonum/plot` wiki or possibly integrate it into the `plotter` package.

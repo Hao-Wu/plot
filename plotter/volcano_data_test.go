@@ -1,4 +1,4 @@
-// Generated code do not edit. Run `go generate gonum.org/v1/plot/plotter`.
+// Generated code do not edit. Run `go generate github.com/Hao-Wu/plot/plotter`.
 
 // Copyright ©2015 The Gonum Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style

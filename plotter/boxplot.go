@@ -10,9 +10,9 @@ import (
 	"math"
 	"sort"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
+	"github.com/Hao-Wu/plot"
+	"github.com/Hao-Wu/plot/vg"
+	"github.com/Hao-Wu/plot/vg/draw"
 )
 
 // fiveStatPlot contains the shared fields for quartile

@@ -7,7 +7,7 @@ package palette_test
 import (
 	"testing"
 
-	"gonum.org/v1/plot/cmpimg"
+	"github.com/Hao-Wu/plot/cmpimg"
 )
 
 func TestReverse(t *testing.T) {

@@ -9,9 +9,9 @@ import (
 	"image/color"
 	"math"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
+	"github.com/Hao-Wu/plot"
+	"github.com/Hao-Wu/plot/vg"
+	"github.com/Hao-Wu/plot/vg/draw"
 )
 
 // A BarChart presents grouped data with rectangular bars

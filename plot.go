@@ -12,11 +12,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"gonum.org/v1/plot/font"
-	"gonum.org/v1/plot/font/liberation"
-	"gonum.org/v1/plot/text"
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
+	"github.com/Hao-Wu/plot/font"
+	"github.com/Hao-Wu/plot/font/liberation"
+	"github.com/Hao-Wu/plot/text"
+	"github.com/Hao-Wu/plot/vg"
+	"github.com/Hao-Wu/plot/vg/draw"
 )
 
 var (
@@ -70,9 +70,9 @@ type Plot struct {
 
 // Plotter is an interface that wraps the Plot method.
 // Some standard implementations of Plotter can be
-// found in the gonum.org/v1/plot/plotter
+// found in the github.com/Hao-Wu/plot/plotter
 // package, documented here:
-// https://godoc.org/gonum.org/v1/plot/plotter
+// https://godoc.org/github.com/Hao-Wu/plot/plotter
 type Plotter interface {
 	// Plot draws the data to a draw.Canvas.
 	Plot(draw.Canvas, *Plot)

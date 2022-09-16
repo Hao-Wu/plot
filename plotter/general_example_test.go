@@ -7,9 +7,9 @@ package plotter_test
 import (
 	"log"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/plotter"
-	"gonum.org/v1/plot/vg"
+	"github.com/Hao-Wu/plot"
+	"github.com/Hao-Wu/plot/plotter"
+	"github.com/Hao-Wu/plot/vg"
 )
 
 // Draw the plot logo.

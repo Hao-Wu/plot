@@ -8,9 +8,9 @@ import (
 	"log"
 	"testing"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/cmpimg"
-	"gonum.org/v1/plot/plotter"
+	"github.com/Hao-Wu/plot"
+	"github.com/Hao-Wu/plot/cmpimg"
+	"github.com/Hao-Wu/plot/plotter"
 )
 
 func TestFloatPrecision(t *testing.T) {

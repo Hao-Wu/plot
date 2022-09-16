@@ -10,12 +10,12 @@ import (
 	"math"
 	"sort"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/font"
-	"gonum.org/v1/plot/text"
-	"gonum.org/v1/plot/tools/bezier"
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
+	"github.com/Hao-Wu/plot"
+	"github.com/Hao-Wu/plot/font"
+	"github.com/Hao-Wu/plot/text"
+	"github.com/Hao-Wu/plot/tools/bezier"
+	"github.com/Hao-Wu/plot/vg"
+	"github.com/Hao-Wu/plot/vg/draw"
 )
 
 // A Sankey diagram presents stock and flow data as rectangles representing

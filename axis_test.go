@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"testing"
 
-	"gonum.org/v1/plot/cmpimg"
-	"gonum.org/v1/plot/vg"
+	"github.com/Hao-Wu/plot/cmpimg"
+	"github.com/Hao-Wu/plot/vg"
 )
 
 var axisSmallTickTests = []struct {

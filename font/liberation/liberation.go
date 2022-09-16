@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package liberation exports the Liberation fonts as a font.Collection.
-package liberation // import "gonum.org/v1/plot/font/liberation"
+package liberation // import "github.com/Hao-Wu/plot/font/liberation"
 
 import (
 	"fmt"
@@ -24,7 +24,7 @@ import (
 	stdfnt "golang.org/x/image/font"
 	"golang.org/x/image/font/opentype"
 
-	"gonum.org/v1/plot/font"
+	"github.com/Hao-Wu/plot/font"
 )
 
 var (

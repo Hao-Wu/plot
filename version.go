@@ -12,7 +12,7 @@ import (
 	"runtime/debug"
 )
 
-const root = "gonum.org/v1/plot"
+const root = "github.com/Hao-Wu/plot"
 
 // Version returns the version of Gonum/plot and its checksum. The returned
 // values are only valid in binaries built with module support.

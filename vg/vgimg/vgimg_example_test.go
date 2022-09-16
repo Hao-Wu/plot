@@ -8,10 +8,10 @@ import (
 	"image"
 	"image/color"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
-	"gonum.org/v1/plot/vg/vgimg"
+	"github.com/Hao-Wu/plot"
+	"github.com/Hao-Wu/plot/vg"
+	"github.com/Hao-Wu/plot/vg/draw"
+	"github.com/Hao-Wu/plot/vg/vgimg"
 )
 
 func ExampleUseDPI() {

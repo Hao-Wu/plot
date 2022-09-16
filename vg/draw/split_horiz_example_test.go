@@ -7,9 +7,9 @@ package draw_test
 import (
 	"fmt"
 
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
-	"gonum.org/v1/plot/vg/vgimg"
+	"github.com/Hao-Wu/plot/vg"
+	"github.com/Hao-Wu/plot/vg/draw"
+	"github.com/Hao-Wu/plot/vg/vgimg"
 )
 
 func ExampleCrop_splitHorizontal() {

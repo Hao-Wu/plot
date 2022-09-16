@@ -3,4 +3,4 @@
 // license that can be found in the LICENSE file.
 
 // Package text provides types and functions to parse, format and render text.
-package text // import "gonum.org/v1/plot/text"
+package text // import "github.com/Hao-Wu/plot/text"

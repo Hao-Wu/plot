@@ -8,11 +8,11 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/Hao-Wu/plot/font"
+	"github.com/Hao-Wu/plot/font/liberation"
 	stdfnt "golang.org/x/image/font"
 	"golang.org/x/image/font/sfnt"
 	"golang.org/x/image/math/fixed"
-	"gonum.org/v1/plot/font"
-	"gonum.org/v1/plot/font/liberation"
 )
 
 func TestFontExtends(t *testing.T) {
