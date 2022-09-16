@@ -5,14 +5,15 @@
 package plotter
 
 import (
+	"fmt"
 	"image/color"
 	"math"
 	"sort"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/palette"
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
+	"github.com/Hao-Wu/plot"
+	"github.com/Hao-Wu/plot/palette"
+	"github.com/Hao-Wu/plot/vg"
+	"github.com/Hao-Wu/plot/vg/draw"
 )
 
 // Contour implements the Plotter interface, drawing
@@ -603,6 +604,12 @@ func (p path) subpath(i []int) path {
 	return pa
 }
 
+// Set a limit for the path size
+// A point take 2 float64, which are 16 Bytes. 31250000 points take about 500M Bytes.
+// This value is suitable for most cloud servers.
+// If no limit, an out of memory panic of Go runtime error could be thrown, and server memory may be totally taken
+const linearPathSizeLimit = 31250000
+
 // linearPathsIn returns the linear paths in g created from p.
 // If g contains any cycles linearPaths will panic.
 func (p path) linearPathsIn(g graph) []path {
@@ -629,6 +636,10 @@ func (p path) linearPathsIn(g graph) []path {
 				panic("contour: not a linear path")
 			}
 			for v := range g[u] {
+				if len(curr) > linearPathSizeLimit {
+					err := fmt.Sprintf("contour: too large linear path %d, will abort", len(curr))
+					panic(err)
+				}
 				curr = append(curr, p[u])
 				u = v
 				break
