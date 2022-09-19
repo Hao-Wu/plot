@@ -8,7 +8,7 @@ import (
 	"math"
 	"sort"
 
-	"github.com/Hao-Wu/plot/plotter"
+	"gonum.org/v1/plot/plotter"
 )
 
 // ErrorPoints holds a set of x, y pairs along

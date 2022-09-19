@@ -8,9 +8,9 @@ import (
 	"image"
 	"math"
 
-	"github.com/Hao-Wu/plot"
-	"github.com/Hao-Wu/plot/vg"
-	"github.com/Hao-Wu/plot/vg/draw"
+	"gonum.org/v1/plot"
+	"gonum.org/v1/plot/vg"
+	"gonum.org/v1/plot/vg/draw"
 )
 
 // Image is a plotter that draws a scaled, raster image.

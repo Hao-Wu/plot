@@ -1,2 +1,2 @@
 fixes:
-  - "src/github.com/Hao-Wu/plot/::"
+  - "src/gonum.org/v1/plot/::"

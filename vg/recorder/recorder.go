@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package recorder provides support for vector graphics serialization.
-package recorder // import "github.com/Hao-Wu/plot/vg/recorder"
+package recorder // import "gonum.org/v1/plot/vg/recorder"
 
 import (
 	"bytes"
@@ -14,9 +14,9 @@ import (
 	"image/png"
 	"runtime"
 
-	"github.com/Hao-Wu/plot/font"
-	"github.com/Hao-Wu/plot/font/liberation"
-	"github.com/Hao-Wu/plot/vg"
+	"gonum.org/v1/plot/font"
+	"gonum.org/v1/plot/font/liberation"
+	"gonum.org/v1/plot/vg"
 )
 
 var _ vg.Canvas = (*Canvas)(nil)

@@ -12,15 +12,15 @@
 // New* functions return an error if the data contains Inf, NaN, or is
 // empty. Some of the New* functions return other plotter-specific errors
 // too.
-package plotter // import "github.com/Hao-Wu/plot/plotter"
+package plotter // import "gonum.org/v1/plot/plotter"
 
 import (
 	"errors"
 	"image/color"
 	"math"
 
-	"github.com/Hao-Wu/plot/vg"
-	"github.com/Hao-Wu/plot/vg/draw"
+	"gonum.org/v1/plot/vg"
+	"gonum.org/v1/plot/vg/draw"
 )
 
 var (

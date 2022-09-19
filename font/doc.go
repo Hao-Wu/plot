@@ -3,4 +3,4 @@
 // license that can be found in the LICENSE file.
 
 // Package font provides types to describe and select text font faces.
-package font // import "github.com/Hao-Wu/plot/font"
+package font // import "gonum.org/v1/plot/font"

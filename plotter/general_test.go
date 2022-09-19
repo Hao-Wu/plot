@@ -7,7 +7,7 @@ package plotter_test
 import (
 	"testing"
 
-	"github.com/Hao-Wu/plot/cmpimg"
+	"gonum.org/v1/plot/cmpimg"
 )
 
 func TestMainExample(t *testing.T) {

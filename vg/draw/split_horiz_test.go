@@ -5,8 +5,8 @@
 package draw_test
 
 import (
-	"github.com/Hao-Wu/plot/vg"
-	"github.com/Hao-Wu/plot/vg/draw"
+	"gonum.org/v1/plot/vg"
+	"gonum.org/v1/plot/vg/draw"
 )
 
 // SplitHorizontal returns the left and right portions of c after splitting it

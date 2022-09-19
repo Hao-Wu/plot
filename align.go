@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/Hao-Wu/plot/vg"
-	"github.com/Hao-Wu/plot/vg/draw"
+	"gonum.org/v1/plot/vg"
+	"gonum.org/v1/plot/vg/draw"
 )
 
 // Align returns a two-dimensional row-major array of Canvases which will

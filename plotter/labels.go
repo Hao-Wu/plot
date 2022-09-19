@@ -7,11 +7,11 @@ package plotter
 import (
 	"errors"
 
-	"github.com/Hao-Wu/plot"
-	"github.com/Hao-Wu/plot/font"
-	"github.com/Hao-Wu/plot/text"
-	"github.com/Hao-Wu/plot/vg"
-	"github.com/Hao-Wu/plot/vg/draw"
+	"gonum.org/v1/plot"
+	"gonum.org/v1/plot/font"
+	"gonum.org/v1/plot/text"
+	"gonum.org/v1/plot/vg"
+	"gonum.org/v1/plot/vg/draw"
 )
 
 var (

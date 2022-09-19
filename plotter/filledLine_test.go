@@ -11,9 +11,9 @@ import (
 
 	"golang.org/x/exp/rand"
 
-	"github.com/Hao-Wu/plot"
-	"github.com/Hao-Wu/plot/cmpimg"
-	"github.com/Hao-Wu/plot/plotter"
+	"gonum.org/v1/plot"
+	"gonum.org/v1/plot/cmpimg"
+	"gonum.org/v1/plot/plotter"
 )
 
 // See https://github.com/gonum/plot/issues/488

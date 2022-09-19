@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package draw // import "github.com/Hao-Wu/plot/vg/draw"
+package draw // import "gonum.org/v1/plot/vg/draw"
 
 import (
-	"github.com/Hao-Wu/plot/text"
+	"gonum.org/v1/plot/text"
 )
 
 type TextHandler = text.Handler

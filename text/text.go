@@ -8,8 +8,8 @@ import (
 	"image/color"
 	"math"
 
-	"github.com/Hao-Wu/plot/font"
-	"github.com/Hao-Wu/plot/vg"
+	"gonum.org/v1/plot/font"
+	"gonum.org/v1/plot/vg"
 )
 
 // Handler parses, formats and renders text.

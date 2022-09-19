@@ -13,12 +13,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Hao-Wu/plot"
-	"github.com/Hao-Wu/plot/cmpimg"
-	"github.com/Hao-Wu/plot/plotter"
-	"github.com/Hao-Wu/plot/vg"
-	"github.com/Hao-Wu/plot/vg/draw"
-	"github.com/Hao-Wu/plot/vg/vgpdf"
+	"gonum.org/v1/plot"
+	"gonum.org/v1/plot/cmpimg"
+	"gonum.org/v1/plot/plotter"
+	"gonum.org/v1/plot/vg"
+	"gonum.org/v1/plot/vg/draw"
+	"gonum.org/v1/plot/vg/vgpdf"
 )
 
 func TestEmbedFonts(t *testing.T) {

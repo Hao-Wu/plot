@@ -10,11 +10,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/Hao-Wu/plot"
-	"github.com/Hao-Wu/plot/plotter"
-	"github.com/Hao-Wu/plot/vg"
-	"github.com/Hao-Wu/plot/vg/draw"
-	"github.com/Hao-Wu/plot/vg/vgpdf"
+	"gonum.org/v1/plot"
+	"gonum.org/v1/plot/plotter"
+	"gonum.org/v1/plot/vg"
+	"gonum.org/v1/plot/vg/draw"
+	"gonum.org/v1/plot/vg/vgpdf"
 )
 
 // Example_embedFonts shows how one can embed (or not) fonts inside

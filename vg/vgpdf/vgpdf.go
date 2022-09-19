@@ -4,7 +4,7 @@
 
 // Package vgpdf implements the vg.Canvas interface
 // using gofpdf (github.com/phpdave11/gofpdf).
-package vgpdf // import "github.com/Hao-Wu/plot/vg/vgpdf"
+package vgpdf // import "gonum.org/v1/plot/vg/vgpdf"
 
 import (
 	"bufio"
@@ -24,9 +24,9 @@ import (
 	pdf "github.com/go-pdf/fpdf"
 	stdfnt "golang.org/x/image/font"
 
-	"github.com/Hao-Wu/plot/font"
-	"github.com/Hao-Wu/plot/vg"
-	"github.com/Hao-Wu/plot/vg/draw"
+	"gonum.org/v1/plot/font"
+	"gonum.org/v1/plot/vg"
+	"gonum.org/v1/plot/vg/draw"
 )
 
 // codePageEncoding holds informations about the characters encoding of TrueType

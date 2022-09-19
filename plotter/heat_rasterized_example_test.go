@@ -7,10 +7,10 @@ package plotter_test
 import (
 	"log"
 
-	"github.com/Hao-Wu/plot"
-	"github.com/Hao-Wu/plot/palette"
-	"github.com/Hao-Wu/plot/plotter"
 	"gonum.org/v1/gonum/mat"
+	"gonum.org/v1/plot"
+	"gonum.org/v1/plot/palette"
+	"gonum.org/v1/plot/plotter"
 )
 
 func ExampleHeatMap_rasterized() {

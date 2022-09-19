@@ -5,12 +5,12 @@
 //go:build !minimal
 // +build !minimal
 
-package plot // import "github.com/Hao-Wu/plot"
+package plot // import "gonum.org/v1/plot"
 
 import (
-	_ "github.com/Hao-Wu/plot/vg/vgeps"
-	_ "github.com/Hao-Wu/plot/vg/vgimg"
-	_ "github.com/Hao-Wu/plot/vg/vgpdf"
-	_ "github.com/Hao-Wu/plot/vg/vgsvg"
-	_ "github.com/Hao-Wu/plot/vg/vgtex"
+	_ "gonum.org/v1/plot/vg/vgeps"
+	_ "gonum.org/v1/plot/vg/vgimg"
+	_ "gonum.org/v1/plot/vg/vgpdf"
+	_ "gonum.org/v1/plot/vg/vgsvg"
+	_ "gonum.org/v1/plot/vg/vgtex"
 )

@@ -8,9 +8,9 @@ import (
 	"image/color"
 	"log"
 
-	"github.com/Hao-Wu/plot"
-	"github.com/Hao-Wu/plot/palette/moreland"
-	"github.com/Hao-Wu/plot/plotter"
+	"gonum.org/v1/plot"
+	"gonum.org/v1/plot/palette/moreland"
+	"gonum.org/v1/plot/plotter"
 )
 
 func ExampleColorBar_horizontal() {

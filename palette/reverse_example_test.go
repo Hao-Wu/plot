@@ -8,10 +8,10 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/Hao-Wu/plot"
-	"github.com/Hao-Wu/plot/palette"
-	"github.com/Hao-Wu/plot/palette/moreland"
-	"github.com/Hao-Wu/plot/plotter"
+	"gonum.org/v1/plot"
+	"gonum.org/v1/plot/palette"
+	"gonum.org/v1/plot/palette/moreland"
+	"gonum.org/v1/plot/plotter"
 )
 
 // This example creates a color bar and a second color bar where the

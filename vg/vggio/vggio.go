@@ -6,7 +6,7 @@
 // a toolkit that implements portable immediate GUI mode in Go.
 //
 // More informations about Gio can be found at https://gioui.org/.
-package vggio // import "github.com/Hao-Wu/plot/vg/vggio"
+package vggio // import "gonum.org/v1/plot/vg/vggio"
 
 import (
 	"bytes"
@@ -27,8 +27,8 @@ import (
 	"gioui.org/widget/material"
 	"golang.org/x/image/font/sfnt"
 
-	"github.com/Hao-Wu/plot/font"
-	"github.com/Hao-Wu/plot/vg"
+	"gonum.org/v1/plot/font"
+	"gonum.org/v1/plot/vg"
 )
 
 var (

@@ -10,7 +10,7 @@
 // interface can draw to the data area of a plot using the primitives
 // made available by this package.  Some standard implementations
 // of the Plotter interface can be found in the
-// github.com/Hao-Wu/plot/plotter package
+// gonum.org/v1/plot/plotter package
 // which is documented here:
-// https://godoc.org/github.com/Hao-Wu/plot/plotter
-package plot // import "github.com/Hao-Wu/plot"
+// https://godoc.org/gonum.org/v1/plot/plotter
+package plot // import "gonum.org/v1/plot"

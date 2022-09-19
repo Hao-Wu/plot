@@ -13,6 +13,7 @@ require (
 	golang.org/x/exp v0.0.0-20220827204233-334a2380cb91
 	golang.org/x/image v0.0.0-20220902085622-e7cb96979f69
 	gonum.org/v1/gonum v0.12.0
+	gonum.org/v1/plot v0.12.0
 	rsc.io/pdf v0.1.1
 )
 
@@ -22,3 +23,5 @@ require (
 	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f // indirect
 	golang.org/x/text v0.3.7 // indirect
 )
+
+replace gonum.org/v1/plot v0.12.0 => ./

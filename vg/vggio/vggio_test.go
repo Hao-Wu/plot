@@ -16,11 +16,11 @@ import (
 
 	"gioui.org/layout"
 	"gioui.org/op"
-	"github.com/Hao-Wu/plot"
-	"github.com/Hao-Wu/plot/cmpimg"
-	"github.com/Hao-Wu/plot/plotter"
-	"github.com/Hao-Wu/plot/vg"
-	"github.com/Hao-Wu/plot/vg/draw"
+	"gonum.org/v1/plot"
+	"gonum.org/v1/plot/cmpimg"
+	"gonum.org/v1/plot/plotter"
+	"gonum.org/v1/plot/vg"
+	"gonum.org/v1/plot/vg/draw"
 )
 
 const deltaGio = 0.05 // empirical value from experimentation.

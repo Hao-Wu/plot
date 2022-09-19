@@ -9,12 +9,12 @@
 // When embedding was not requested during plot creation, it may happen that
 // the generated SVG plot may not display well if the Liberation fonts are not
 // available to the program displaying the SVG plot.
-// See github.com/Hao-Wu/plot/vg/vgsvg#Example_standardFonts for how to work around
+// See gonum.org/v1/plot/vg/vgsvg#Example_standardFonts for how to work around
 // this issue.
 //
 // Alternatively, users may want to install the Liberation fonts on their system:
 //   - https://en.wikipedia.org/wiki/Liberation_fonts
-package vgsvg // import "github.com/Hao-Wu/plot/vg/vgsvg"
+package vgsvg // import "gonum.org/v1/plot/vg/vgsvg"
 
 import (
 	"bufio"
@@ -33,9 +33,9 @@ import (
 	xfnt "golang.org/x/image/font"
 	"golang.org/x/image/font/sfnt"
 
-	"github.com/Hao-Wu/plot/font"
-	"github.com/Hao-Wu/plot/vg"
-	"github.com/Hao-Wu/plot/vg/draw"
+	"gonum.org/v1/plot/font"
+	"gonum.org/v1/plot/vg"
+	"gonum.org/v1/plot/vg/draw"
 )
 
 func init() {

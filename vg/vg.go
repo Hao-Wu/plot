@@ -5,14 +5,14 @@
 // Package vg defines an interface for drawing 2D vector graphics.
 // This package is designed with the hope that many different
 // vector graphics back-ends can conform to the interface.
-package vg // import "github.com/Hao-Wu/plot/vg"
+package vg // import "gonum.org/v1/plot/vg"
 
 import (
 	"image"
 	"image/color"
 	"io"
 
-	"github.com/Hao-Wu/plot/font"
+	"gonum.org/v1/plot/font"
 )
 
 // A Canvas is the main drawing interface for 2D vector

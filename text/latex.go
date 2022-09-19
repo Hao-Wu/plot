@@ -16,8 +16,8 @@ import (
 	"github.com/go-latex/latex/tex"
 	stdfnt "golang.org/x/image/font"
 
-	"github.com/Hao-Wu/plot/font"
-	"github.com/Hao-Wu/plot/vg"
+	"gonum.org/v1/plot/font"
+	"gonum.org/v1/plot/vg"
 )
 
 // Latex parses, formats and renders LaTeX.
